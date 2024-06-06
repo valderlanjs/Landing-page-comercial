@@ -381,16 +381,16 @@ span {
 }
 .logo-marcas {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(8, 2fr);
     gap: 2rem;
 }
 
 #brasilit{
-    margin-top: 65px;
+    margin-top: 30px;
 }
 
 #pado {
-    margin-top: 20px;
+    margin-top: 15px;
 
 }
 
@@ -398,17 +398,33 @@ span {
     margin-top: 40px;
 }
 
+#plastbind{
+    margin-top: 30px;
+}
+
+#montana{
+    margin-top: 35px;
+}
+
+#iquine {
+    margin-top: 45px;
+}
+
+#eucatec {
+    margin-top: 20px;
+}
+
 .logo-marcas img {
     margin-top: 10px;
-    width: 200px;
+    width: 100px;
     border-radius: 12px;
 }
 
 .logo-marcas .logo-img {
     border-radius: 12px;
     align-items: center;
-    width: 230px;
-    height: 230px;
+    width: 130px;
+    height: 130px;
     background-color: var(--white-color);
     
 }
@@ -559,12 +575,12 @@ span {
 }
 
 .logo-email {
-    margin-top: 1rem;
+
     display: flex;
     align-items: center;
     gap: 1rem;
     margin-left: -1px;
-    margin-bottom: 1rem;
+    
 }
 
 .icon {
@@ -575,6 +591,17 @@ span {
 .logo-whtas i {
     color: var(--main-color);
     font-size: 18px;
+}
+
+.logo-insta {
+    display: flex;
+}
+
+.logo-insta i {
+    color: var(--main-color);
+    font-size: 18px;
+    margin-right: 15px;
+    margin-bottom: 2rem;
 }
 
 .footer-iconTop a {
@@ -739,7 +766,7 @@ span {
 } 
     
 
-@media (width: 768px) {
+@media (max-width: 768px) {
 
     #menu-icon {
         display: block;
@@ -783,11 +810,23 @@ span {
     }
 
     .home {
-        display: flex;
+        margin-top: 80px;
+        display: grid;
         padding: 0 3% 23rem;
         justify-content: center;
         width: 100%;
+        font-size: 4.5rem;
+    }
+    .services .heading {
+        margin-right: -350px;
+    }
 
+    .contact .heading{
+        margin-right: -480px;
+    }
+
+    .location {
+        margin-right: -200px;
     }
 
 }
@@ -798,46 +837,40 @@ span {
     }
 
     .services .services-container {
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: (2, 1fr);
+    }
+
+    .marcas h2 {
+        margin-right: -550px;
+    }
+
+    .location {
+        margin-right: -350px;
     }
 }
 
 @media (max-width: 450px) {
-    html {
-        font-size: 50%;
-    }
+    
 
     #darkMode-icon {
         right: 6rem;
     }
 
     .home {
+        margin-left: 150px;
+       display: grid;
         padding: 0 3% 30rem;
     }
 
-    .home .profession-box .profession:nth-child(1) {
-        transform: rotate(-90deg) translate(-110px, -120px);
-    }
-
-    .home .profession-box .profession:nth-child(2) {
-        transform: rotate(0deg) translate(5px, -335px);
-    }
-
-    .home .profession-box .profession:nth-child(3) {
-        transform: rotate(90deg) translate(-105px, -440px);
-    }
-
-    .home .profession-box .profession:nth-child(4) {
-        transform: rotate(180deg) translate(-210px, -335px);
+    .home .home-content {
+        margin-right: -450px;
     }
 
     .about .about-content h3 {
         margin-top: 3rem;
     }
 
-    .contact form .input-box input {
-        width: 100%;
-    }
 }
 
 

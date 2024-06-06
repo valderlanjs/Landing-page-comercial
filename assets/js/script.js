@@ -64,7 +64,13 @@ ScrollReveal({
 });
 
 // INDICA A POSIÇÃO DE ORIGEM DA ANIMAÇÃO
-ScrollReveal().reveal('.home-content, .heading',  '.home img', { origin: 'top' });
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.img-logo', { origin: 'top' });
+ScrollReveal().reveal('.logo', { origin: 'top' });
+ScrollReveal().reveal('.header', { origin: 'right' });
+ScrollReveal().reveal('.logo-marcas', { origin: 'left' });
+ScrollReveal().reveal('.about-content', { origin: 'left' });
+ScrollReveal().reveal('.services-box', { origin: 'bottom' });
 ScrollReveal().reveal('.skills-container, .portfolio-container, .contact form', '.services-box img', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
 ScrollReveal().reveal('.home-content h3, home-content p, .about-content', { origin: 'right' });
