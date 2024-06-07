@@ -556,7 +556,7 @@ span {
 
 /*FOOTER*/
 .footer {
-    width: 1600px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -696,7 +696,7 @@ span {
         width: 100%;
         margin-left: 250px;
         flex-direction: column;
-        margin-bottom: -700px;
+        
     }
 
     .home img {
@@ -735,9 +735,7 @@ span {
     }
 
     .about-img {
-        margin-top: 50px;
-        width: 80%;
-        height: auto;
+        display: none;
     }
 
     .about-content .about-text {
@@ -933,11 +931,33 @@ span {
     }
 
     .home .home-content {
+       
         margin-right: -450px;
     }
 
+    .about {
+        width: 100%;
+        
+        margin-left: 350px;
+    }
     .about .about-content h3 {
         margin-top: 3rem;
+    }
+
+    .services {
+        margin-left: 50px;
+    }
+
+    .services .heading {
+        margin-left: 250px;
+    
+    }
+
+    .contact .heading {
+        margin-left: 120px;
+    }
+    .contact .contact-services {
+        margin-left: 80px;
     }
 
 }
