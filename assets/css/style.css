@@ -644,172 +644,53 @@ span {
 }
 
 /* RESPONSIVO */
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     html {
         font-size: 55%;
     }
 }
 
-@media (max-width: 991px) {
-    #menu-icon {
-            display: block;
-        }
-    
-        .navbar {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            width: 100%;
-            padding: 1rem 3%;
-            background: var(--bg-color);
-            border-top: .1rem solid rgba(0, 0, 0, .2);
-            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-            display: none;
-        }
-    
-        .navbar.active {
-            display: block;
-        }
-    
-        .navbar a {
-            display: block;
-            font-size: 2rem;
-            margin: 3rem;
-            color: var(--text-color);
-        }
-    
-        .navbar a:nth-child(1),
-        .navbar a:nth-child(2),
-        .navbar a:nth-child(3) {
-            color: var(--text-color);
-        }
-    
-        .navbar a.active {
-            color: var(--main-color);
-        }
-    
-        .navbar a::before {
-            display: none;
-        }
-
-    .home {
-        width: 100%;
-        margin-left: 250px;
-        flex-direction: column;
-        
+@media (max-width: 1106px) {
+    .header {
+        padding: 2rem 3%;
     }
 
-    .home img {
-        display: none;
+    section {
+        padding: 10rem 3% 2rem;
     }
 
-    .home-content {
-        text-align: center;
+
+    .about-content h3 {
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 985px) {
+
+    .navbar a:nth-child(1),
+    .navbar a:nth-child(2) {
+        color: var(--main-color);
     }
 
-    .home-content h3 {
-        font-size: 4.2rem;
+    .navbar a.active::before {
+        background: var(--main-color);
+        opacity: .7;
     }
 
-    .home-content h1 {
-        font-size: 4.4rem;
-        width: 100%;
-        margin-bottom: 50px;
-    }
-
-    .home-content p {
-        font-size: 1.4rem;
-    }
-
-    .about {
-        width: 100%;
-        margin-left: 250px;
-        flex-direction: column;
-        text-align: center;
-        margin-bottom: -10px;
-    }
-
-    .about-content {
-        margin-top: 0;
-        text-align: center;
-    }
-
-    .about-img {
-        display: none;
-    }
-
-    .about-content .about-text {
-        font-size: 3.2rem;
+    .home .home-content {
+        max-width: 50rem;
     }
 
     .services {
-        margin-left: 150px;
+        padding-bottom: 7rem;
     }
 
-    .services .heading {
-        margin-right: -350px;
-    }
-    .services .services-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        align-items: center;
-        gap: 2.5rem;
-        width: 80%;
-        margin-left: 70px;
-    }
-    .btnMais {
-        width: 10%;
-    }
-
-    #btnVermais {
-        margin-left: 400px;
-    }
-    .marcas h2 {
-        width: 100%;
-        margin-left: 100px;
-    }
-
-    .logo-marcas {
-        display: grid;
-        grid-template-columns: repeat(4, 2fr);
-        gap: 2rem;
-        width: 100%;
-        margin-left: 150px;
-    }
-
-    .contact-services {
-        width: 100%;
-        margin-left: 180px;
-    }
-
-    .contact .heading {
-        margin-right: -350px;
-    }
-
-    .location {
-        margin-left: 450px;
-    }
-
-    .maps {
-        width: 800px;
-        margin-left: 220px;
+    .contact {
+        min-height: auto;
     }
 
     .footer {
-        background-color: var(--white-color);
-        margin-left: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
-    .footer .logoMadenobre{
-        margin-left: 155px;
-    }
-
-    .footer .footer-iconTop{
-        display: none;
+        padding: 2rem 3%;
     }
 }
 
@@ -857,45 +738,116 @@ span {
         display: none;
     }
 
-
-
     .home {
-        margin-top: 80px;
-        display: grid;
+        width: 100%;
         padding: 0 3% 23rem;
         justify-content: center;
-        width: 100%;
-        font-size: 4.5rem;
-        margin-bottom: -450px;
+        text-align: center;
+        margin-left: 150px;
+        margin-bottom: 150px;
+
     }
 
-    .about-img {
+    .home-content {
+        margin-top: 7rem;
+    }
+
+    .home-content h3 {
+
+        font-size: 2.6rem;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-content .social-media a {
+        margin: 2.5rem 0.75rem 3rem;
+    }
+
+    .home img {
         display: none;
     }
 
-    .services .heading {
-        margin-right: -350px;
+    .about {
+        margin-left: 150px;
+        margin-top: 5rem;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: -180px;
     }
+
+    .about-content h2 {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .about .about-content h3 {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .about-content p {
+        text-align: center;
+    }
+
+    .about-img img {
+        display: none;
+    }
+    .services {
+        margin-top: 0;
+    }
+
+    .services .heading {
+        margin-left: 250px;
+    }
+    .services .services-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #btnVermais {
+        margin-left: 400px;
+    }
+
     .marcas h2 {
-        margin-left: 350px;
+        margin-top: 15px;
+        margin-left: 150px;
+    
+    }
+
+    .logo-marcas {
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        gap: 2rem;
+        width: 100%;
+        margin-left: 150px;
     }
 
     .contact .heading {
-        margin-right: -580px;
+        margin-right: -150px;
     }
 
-    .contact-services .contact-box {
-        margin-left: 50px;
+    .contact-services {
+        margin-left: 60px;
+    }
+
+    .contact-box {
+        margin-left: 10px;
+    
     }
 
     .location {
-        margin-right: -200px;
+        margin-right: -150px;
+    }
+
+    .maps {
+        margin-right: -150px;
     }
 
     .footer {
         background-color: var(--white-color);
+        margin-left: 250px;
     }
-
 }
 
 @media (max-width: 617px) {
@@ -904,60 +856,30 @@ span {
     }
 
     .services .services-container {
-        display: grid;
-        grid-template-columns: (2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .marcas h2 {
-        margin-right: -550px;
-    }
-
-    .location {
-        margin-right: -350px;
+    .footer {
+        margin-left: 100px;
     }
 }
 
 @media (max-width: 450px) {
-
+    html {
+        font-size: 50%;
+    }
 
     #darkMode-icon {
         right: 6rem;
     }
 
     .home {
-        margin-left: 150px;
-        display: grid;
         padding: 0 3% 30rem;
     }
 
-    .home .home-content {
-       
-        margin-right: -450px;
-    }
 
-    .about {
-        width: 100%;
-        
-        margin-left: 350px;
-    }
     .about .about-content h3 {
         margin-top: 3rem;
-    }
-
-    .services {
-        margin-left: 50px;
-    }
-
-    .services .heading {
-        margin-left: 250px;
-    
-    }
-
-    .contact .heading {
-        margin-left: 120px;
-    }
-    .contact .contact-services {
-        margin-left: 80px;
     }
 
 }
