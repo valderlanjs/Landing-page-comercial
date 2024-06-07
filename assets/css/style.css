@@ -877,10 +877,55 @@ span {
         padding: 0 3% 30rem;
     }
 
+    .about {
+        margin-left: 250px;
+    }
+    .about-content .about-text {
+        width: 500px;
+        font-size: 8rem;
+    }
+
 
     .about .about-content h3 {
         margin-top: 3rem;
     }
+
+    .services-box {
+       margin-left: 25px;
+    }
+
+    #btnVermais {
+        margin-left: 300px;
+    
+    }
+
+    .marcas h2 {
+        margin-left: 350px;
+    }
+
+    .marcas .logo-marcas {
+        margin-left: 100px;
+    
+    } 
+
+    .contact .heading {
+        margin-left: 250px;
+    
+    }
+
+    .location {
+        margin-left: 250px;
+    }
+
+    .maps {
+        margin-left: 90px;
+        width: 600px;
+    }
+
+    .footer {
+        margin-left: 250px;
+    }
+
 
 }
 
