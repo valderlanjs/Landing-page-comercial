@@ -967,8 +967,8 @@ span {
         font-size: 3rem;
     }
 
-    .home .profession-container {
-        display: none;
+    .services .services-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .about .about-content .heading {
