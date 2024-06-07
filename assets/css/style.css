@@ -890,6 +890,13 @@ span {
         margin-top: 3rem;
     }
 
+    .services {
+        margin-top: -650px;
+    }
+    .services .services-container {
+        display: none;
+    }
+/*
     .services .services-container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -928,11 +935,12 @@ span {
 
     .services-box {
        margin-left: 25px;
-    }
+    }*/
 
     #btnVermais {
-        margin-left: 300px;
-    
+        width: 200px;
+        margin-left: 260px;
+        margin-bottom: 55px;
     }
 
     .marcas h2 {
