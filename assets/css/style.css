@@ -891,7 +891,39 @@ span {
     }
 
     .services .services-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .services-container .services-box {
+        flex-direction: column;
+        width: 480px;
+        height: 600px;
+    }
+
+    .services-box img {
+        margin-left: 100px;
+    }
+
+    .services-box p {
+        font-size: 4rem;
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+
+    .services-box .maderiteRosa {
+        margin-left: 15px;
+    }
+
+    .services-box .brasilit {
+        margin-left: 15px;
+    }
+
+    .services-box .telha {
+        margin-left: 15px;
+    }
+
+    .services-box .madeira {
+        margin-left: 15px;
     }
 
     .services-box {
@@ -939,10 +971,6 @@ span {
         margin-top: 3rem;
     }
 
-    .services .services-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .footer {
         flex-direction: column-reverse;
     }
@@ -967,9 +995,6 @@ span {
         font-size: 3rem;
     }
 
-    .services .services-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
 
     .about .about-content .heading {
         margin-bottom: 6rem;
