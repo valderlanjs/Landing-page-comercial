@@ -1130,7 +1130,7 @@ span {
         align-items: center;
         justify-content: center;
         margin-top: 450px;
-        margin-left: 280px;
+        margin-left: 250px;
         margin-bottom: 180px;
         
     }
@@ -1150,12 +1150,14 @@ span {
     }
 
     .services {
+        width: 100%;
+        margin-left: 20px;
         margin-top: -580px;
     }
 
     .services .heading {
         width: 100%;
-        margin-left: 120px;
+        margin-left: 160px;
     }
     .services .services-container {
         display: grid;
