@@ -1170,7 +1170,7 @@ span {
     .services-container .services-box {
         margin-left: 10px;
         width: 500px;
-        height: 400px;
+        height: 450px;
     }
 
     .services-container .services-box img{
@@ -1183,7 +1183,7 @@ span {
     .services-container .services-box p {
         width: 100%;
         margin-left: -80px;
-        margin-top: 290px;
+        margin-top: 300px;
         font-size: 30px;
     }
 
@@ -1271,7 +1271,7 @@ span {
     }
 
     .contact-services .contact-box {
-        margin-left: 50px;
+        margin-left: 20px;
         width: 150px;
         height: 200px;
     }
@@ -1281,7 +1281,7 @@ span {
         height: 200px;
     }
     .contact .heading {
-        margin-left: 30px;
+        margin-left: 10px;
     
     }
 
@@ -1311,7 +1311,7 @@ span {
     }
 
     .maps {
-        margin-left: 50px;
+        margin-left: -10px;
         width: 600px;
     }
 
@@ -1319,6 +1319,10 @@ span {
         display: flex;
         justify-content: space-between;
         margin-left: 50px;
+    }
+
+    .footer .footer-iconTop {
+        display: none;
     }
 
 
