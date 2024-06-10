@@ -981,7 +981,6 @@ span {
     .home {
         width: 100%;
         margin-left: 110px;
-        margin-bottom: -50;
     }
 
     .home .home-content h1 {
@@ -997,7 +996,6 @@ span {
         width: 100%;
         font-size: 40px;
         margin-left: 20px;
-        margin-top: -200px;
     }
 
     .about {
@@ -1005,9 +1003,9 @@ span {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 10px;
+        margin-top: 80px;
         margin-left: 230px;
-        margin-bottom: 0px;
+        margin-bottom: 50px;
     }
     .about-content .about-text {
         width: 100%;
