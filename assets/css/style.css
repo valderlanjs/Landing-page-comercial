@@ -648,20 +648,74 @@ span {
     html {
         font-size: 55%;
     }
+
+    .services {
+        margin-left: -80px;
+    }
+
+    .services .heading {
+        margin-left: 150px;
+    }
+
+    .marcas {
+        width: 100%;
+    }
+    .marcas h2 {
+        margin-left: 150px;
+    }
+
+    .marcas .logo-marcas {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .contact {
+        margin-left: 50px;
+    }
+
+    .footer {
+        background-color: var(--white-color);
+    }
 }
 
 @media (max-width: 1106px) {
-    .header {
-        padding: 2rem 3%;
-    }
 
     section {
         padding: 10rem 3% 2rem;
     }
 
+    .services {
+        margin-left: -70px;
+    }
+
+    .services .heading {
+        margin-left: 200px;
+    }
 
     .about-content h3 {
         margin-top: 4rem;
+    }
+
+    .marcas h2 {
+        margin-left: 200px;
+    }
+
+    .marcas .logo-marcas {
+        width: 100%!important;
+        margin-left: 100px;
+    }
+
+    .logo-marcas .logo-img{
+        width: 50px!important;
+    }
+
+    .contact {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .footer {
+        background-color: var(--white-color);
     }
 }
 
@@ -677,20 +731,83 @@ span {
         opacity: .7;
     }
 
+    .home  {
+        margin-left: 150px;
+    }
+
+    .home img {
+        width: 600px;
+    }
+
     .home .home-content {
-        max-width: 50rem;
+        margin-left: -90px;
+    }
+
+    .about {
+        width: 100%;
+        margin-left: 150px;
+    }
+
+    .about .about-img {
+        margin-left: -120px;
+        margin-top: -80px;
+    }
+
+    .about .about-content {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+
+    .about .about-text {
+        width: 600px;
+
     }
 
     .services {
         padding-bottom: 7rem;
     }
 
+    .services .heading {
+        width: 100%;
+        margin-left: 250px;
+    }
+
+    .marcas {
+        width: 100%;
+    }
+
+    .marcas h2 {
+        width: 100%;
+        margin-left: 250px;
+    }
     .contact {
-        min-height: auto;
+        width: 100%;
+        
+    }
+
+    .contact .contact-services {
+        margin-left: 150px;
+    }
+
+    .contact .heading {
+        margin-left: 450px;
+    }
+
+    .contact-services .contact-box {
+        margin-left: 50px;
+    }
+    .location {
+        margin-left: 450px;
+    }
+
+    .maps {
+        width: 900px;
+        margin-left: 120px;
     }
 
     .footer {
-        padding: 2rem 3%;
+        background-color: var(--white-color);
     }
 }
 
@@ -773,7 +890,7 @@ span {
     .about {
         width: 100%;
         margin-left: 255px;
-        margin-top: 22rem;
+        margin-top: 42rem;
         display: grid;
         margin-bottom: 0px;
     }
@@ -800,11 +917,6 @@ span {
         text-align: center;
     }
 
-    .about .about-content h3 {
-        margin-bottom: 2rem;
-        text-align: center;
-    }
-
     .about-content p {
         margin: 2rem 0 3rem;
         text-align: center;
@@ -812,14 +924,14 @@ span {
     }
 
     .about-content .about-text {
-        width: 100%;
-        font-size: 20px;
+        width: 600px;
+        font-size: 15px!important;
         margin-top: 10px;
     }
 
     .about-img img {
-        margin-top: -250px;
-        margin-left: -280px;
+        margin-top: -380px;
+        margin-left: -200px;
     }
     .services {
         margin-top: -550px;
@@ -842,8 +954,9 @@ span {
     }
 
     .marcas h2 {
+        width: 100%;
         margin-top: 15px;
-        margin-left: 350px;
+        margin-left: 110px;
     
     }
 
@@ -885,8 +998,9 @@ span {
 
 @media (max-width: 617px) {
 
-    .abou .about-content {
+    .about .about-content {
         width: 100%;
+        margin-left: -20px;
     }
 
     .about .about-content h2 {
@@ -895,7 +1009,8 @@ span {
     }
 
     .about .about-content .about-text {
-        margin-left: -120px;
+        margin-left: -250px;
+        font-size: 20px!important;
     }
 
     .about .about-img {
@@ -904,6 +1019,11 @@ span {
 
     .services {
         margin-top: -400px;
+    }
+
+    .services .heading {
+        width: 100%;
+        margin-left: 150px;
     }
 
     .services .services-container {
@@ -958,6 +1078,12 @@ span {
         margin-left: -140px;
     }
 
+    #btnVermais {
+        width: 200px;
+        margin-left: 320px;
+        margin-bottom: 55px;
+    }
+
 
     .contact {
         width: 100%;
@@ -974,8 +1100,8 @@ span {
 
 @media (max-width: 450px) {
     #menu-icon {
-        margin-right: 40px !important;
-        font-size: 7rem!important;
+        margin-right: 0px !important;
+        font-size: 5rem!important;
     }
 
     .home {
@@ -1003,20 +1129,21 @@ span {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 80px;
+        margin-top: 450px;
         margin-left: 230px;
-        margin-bottom: 80px;
+        margin-bottom: 180px;
+        
     }
 
     .about .heading {
         margin-top: 120px;
     }
     .about-content .about-text {
-        width: 100%;
+        width: 100%!important;
         font-size: 20px!important;
-        margin-left: -10px;
+        margin-left: -80px!important;
+        
     }
-
 
     .about .about-content h3 {
         margin-top: 3rem;
@@ -1195,9 +1322,14 @@ span {
 
 
 @media (max-width: 365px) {
+
+    .home {
+        margin-bottom: 550px;
+    }
     .about {
         width: 100%;
         margin-left: 250px;
+        margin-bottom: 300px;
     }
     
     .about .about-content p {
@@ -1205,8 +1337,16 @@ span {
         font-size: 19px!important;
     }
 
+    .about .heading {
+        margin-left: -180px!important;
+    }
+
     .services {
         width: 100%;
+    }
+
+    .services .heading {
+        margin-left: 150px;
     }
     .services .services-container {
         display: grid;
@@ -1313,6 +1453,10 @@ span {
 
 @media (max-width: 322px) {
 
+    .home {
+        margin-bottom: 550px;
+    }
+
     .home .home-content {
         margin-top: 10rem;
     }
@@ -1328,5 +1472,9 @@ span {
 
     .about .about-content .heading {
         margin-bottom: 6rem;
+    }
+
+    .services .heading {
+        margin-left: 150px;
     }
 }
