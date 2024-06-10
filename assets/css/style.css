@@ -167,8 +167,9 @@ section {
 }
 
 
-.home-content .solcial-media a {
-    display: inline-flex;
+
+.home-content .social-media button {
+    display: inline-block;
     justify-content: center;
     align-items: center;
     width: 12rem;
@@ -184,7 +185,7 @@ section {
     transition: .5s ease;
 }
 
-.home-content .solcial-media a:hover {
+.home-content .social-media button:hover {
     background: var(--white-color);
     color: var(--main-color);
     scale: 1.1;
@@ -1114,15 +1115,19 @@ span {
         width: 100%;
     }
 
-    .home .solcial-media {
-        margin-left: 60px;
+    .home-content .social-media button {
+        display: none;
     }
+
+   
 
     .home .home-content h3 {
         width: 100%;
         font-size: 40px;
         margin-left: 20px;
     }
+
+
 
     .about {
         width: 100%;
