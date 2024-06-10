@@ -1156,97 +1156,94 @@ span {
     }
 
     .services .heading {
-        width: 100%;
-        margin-left: 160px;
+        width: 500px;
+        margin-left: 90px;
     }
     .services .services-container {
         display: grid;
         width: 100%;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 50px;
+        margin-left: 80px;
     }
 
     .services-container .services-box {
         margin-left: 10px;
-        width: 200px;
-        height: 200px;
+        width: 500px;
+        height: 400px;
     }
 
     .services-container .services-box img{
-        width: 80px;
-        height: 80px;
-        margin-left: 55px;
+        width: 400px;
+        height: 300px;
+        margin-left: 50px;
         margin-top: 20px;
     }
 
     .services-container .services-box p {
         width: 100%;
         margin-left: -80px;
-        margin-top: 85px;
-        font-size: 18px;
+        margin-top: 290px;
+        font-size: 30px;
     }
 
     .services-box .maderiteRosa {
-        margin-left: -120px!important;
+        margin-left: -450px!important;
         width: 100% !important;
-        font-size: 18px !important;
+        font-size: 30px !important;
     }
 
     .services-box .maderiteAzul {
-       margin-left: -80px !important;
+       margin-left: -450px !important;
        width: 100% !important;
-       font-size: 18px !important;
+       font-size: 30px !important;
     }
 
     .services-box .brasilit {
-        margin-left: -120px!important;
+        margin-left: -420px!important;
     }
 
     .services-box .telha {
-        margin-left: -120px!important;
+        margin-left: -420px!important;
     }
 
     .services-box .madeira {
-        margin-left: -120px !important;
+        margin-left: -420px !important;
     }
 
     .services-box .deck {
         width: 100%!important;
-        margin-left: -110px !important;
+        margin-left: -410px !important;
     }
 
     .services-box .ripa {
-        margin-left: -110px !important;
+        margin-left: -410px !important;
     }
 
     .services-box .barrote {
-        margin-left: -120px !important;
-        font-size: 14px !important;
+        margin-left: -400px !important;
     }
 
     .services-box .caibo {
-        margin-left: -120px !important;
-        font-size: 13px !important;
+        margin-left: -420px !important;
+
     }
 
     .services-box .linha {
-        margin-left: -120px !important;
-        font-size: 15px !important;
+        margin-left: -420px !important;
     }
 
     .services-box .forro {
-        margin-left: -100px !important;
-        font-size: 18px !important;
+        margin-left: -400px !important;
     }
 
     .services-box .forra {
-        margin-left: -120px !important;
-        font-size: 13px !important;
+        margin-left: -400px !important;
     }
 
     #btnVermais {
         width: 200px;
-        margin-left: 200px;
+        margin-left: 250px;
         margin-bottom: 55px;
     }
 
@@ -1254,14 +1251,19 @@ span {
         width: 100%;
     }
     .marcas h2 {
-        width: 100%;
-        margin-left: 190px;
+        width: 520px;
+        margin-left: 100px;
     }
 
     .marcas .logo-marcas {
-        margin-left: 50px;
+        width: 100%;
+        margin-left: -10px;
     
     } 
+
+    .logo-marcas .logo-img {
+        margin-left: 80px;
+    }
 
     .contact {
         width: 100%;
