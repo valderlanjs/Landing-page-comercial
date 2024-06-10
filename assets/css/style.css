@@ -1570,9 +1570,6 @@ span {
 }
 
 @media only screen and (max-width: 768px) {
-    body {
-        
-    }
 
     .products-services .products-container {
         display: grid;
@@ -1693,5 +1690,40 @@ span {
 }
 
 @media (max-width: 360px) {
+    .products-services .products-container {
+        display: grid;
+        margin-top: 100px;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 2.5rem;
+        width: 100%;
+    }
 
+    .products-container .products-box {
+        background-color: var(--bg-color);
+        height: 250px;
+        width: 230px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+        overflow: hidden;
+    }
+
+        .products-container .products-box img {
+            margin-top: -80px!important;
+            margin-left: 25px!important;
+  
+        }
+
+        .products-box p {
+            width: 100%;
+            margin: 0 50px -50px 0;
+        }
+
+        .btnVerMaisP {
+            margin-left: 150px!important;
+        }
 }
