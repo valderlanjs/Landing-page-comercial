@@ -1491,3 +1491,207 @@ span {
         margin-left: 150px;
     }
 }
+
+
+/* PAGINA TODOS OS PRODUTOS*/
+
+/*SEÇÃO PRODUTOS*/
+.products-services .products-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+    width: 100%;
+}
+
+.products-container .products-box {
+    background-color: var(--bg-color);
+    height: 250px;
+    width: 180px;
+    position: relative;
+    display: flex;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+    overflow: hidden;
+}
+
+.products-box img {
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: 35px;
+    width: 100px;
+    height: 120px;
+    transition: .5s ease;
+
+}
+
+.products-box:hover img {
+    transform: scale(1.1);
+}
+
+.products-box p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 200px;
+    margin-left: -120px;
+    width: 100%;
+}
+
+.products-box .brasilit {
+    margin-left: -130px;
+}
+
+.products-box .telha {
+    margin-left: -140px;
+}
+
+.products-box .madeira {
+    margin-left: -140px;
+}
+
+.products-box .deck {
+    margin-left: -130px!important;
+}
+
+.products-box .maderiteRosa {
+    margin-left: -140px;
+}
+
+.products-box .maderiteRosa {
+    margin-left: -140px;
+}
+
+.products-box .maderiteRosa {
+    margin-left: -140px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        
+    }
+
+    .products-services .products-container {
+        display: grid;
+        margin-top: 100px;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 2.5rem;
+        width: 100%;
+    }
+
+    .products-services .heading-products {
+        margin-top: 500px;
+        color: #000;
+        font-size: 5.5rem;
+        margin-left: 30px;
+    }
+    
+    .products-container .products-box {
+        background-color: var(--bg-color);
+        height: 250px;
+        width: 180px;
+        position: relative;
+        display: flex;
+        border-radius: 1rem;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+        overflow: hidden;
+    }
+
+    .btnVerMaisP {
+        margin-left: 50px;
+    }
+
+    .footer-products {
+        display: none;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .products-services .products-container {
+        display: grid;
+        margin-top: 100px;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 2.5rem;
+        width: 100%;
+    }
+
+    .products-services .heading-products {
+        margin-top: 500px;
+        color: #000;
+        font-size: 5.5rem;
+        margin-left: 50px;
+    }
+
+    .products-container {
+        margin-left: -20px!important;
+    }
+
+    .products-container .products-box {
+        background-color: var(--bg-color);
+        height: 250px;
+        width: 180px;
+        position: relative;
+        display: flex;
+        border-radius: 1rem;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+        overflow: hidden;
+    }
+
+    .products-box img {
+        width: 180px!important;
+        height: 150px!important;
+        margin-left: 5px !important;
+    }
+
+    .products-box p {
+        width: 100%;
+        margin-top: 150px!important;
+        font-size: 15px!important;
+        margin-left: -150px!important;
+    }
+
+    .products-box .brasilit {
+        margin-left: -180px!important;
+    }
+
+    .products-box .maderiteRosa {
+        margin-left: -180px !important;
+        font-size: 15px !important;
+    }
+
+    .products-box .maderiteAzul {
+        margin-left: -180px !important;
+        font-size: 15px !important;
+    }
+
+    .products-box .telha {
+        margin-left: -180px !important;
+        font-size: 15px !important;
+    }
+
+    .products-box .madeira {
+        margin-left: -180px !important;
+        font-size: 15px !important;
+    }
+
+    .products-box .barrote {
+        margin-left: -180px !important;
+        font-size: 12px !important;
+    }
+
+    .products-box .forra {
+        margin-left: -180px !important;
+        font-size: 12px !important;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+}
