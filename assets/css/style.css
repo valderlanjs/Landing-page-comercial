@@ -1005,7 +1005,11 @@ span {
         justify-content: center;
         margin-top: 80px;
         margin-left: 230px;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
+    }
+
+    .about .heading {
+        margin-top: 120px;
     }
     .about-content .about-text {
         width: 100%;
