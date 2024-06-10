@@ -39,10 +39,10 @@ body {
 
 .header {
     position: fixed;
-    top: 0;
     left: 0;
+    right: 150px;
     width: 100%;
-    padding: 2rem;
+    padding: 2rem ;
     background: var(--bg-color);
     display: flex;
     align-items: center;
@@ -739,25 +739,26 @@ span {
     }
 
     .home {
+        display: flex;
         width: 100%;
-        padding: 0 3% 23rem;
         justify-content: center;
         text-align: center;
         margin-left: 150px;
-        margin-bottom: 150px;
 
     }
 
     .home-content {
+        width: 100%;
         margin-top: 7rem;
     }
 
     .home-content h3 {
-
+        margin-top: 0;
         font-size: 2.6rem;
     }
 
     .home-content h1 {
+        width: 100%;
         font-size: 5rem;
     }
 
@@ -770,11 +771,27 @@ span {
     }
 
     .about {
-        margin-left: 150px;
-        margin-top: 5rem;
-        flex-direction: column-reverse;
-        align-items: center;
-        margin-bottom: -180px;
+        width: 100%;
+        margin-left: 255px;
+        margin-top: 38rem;
+        display: grid;
+        margin-bottom: 0px;
+    }
+
+    .about .heading {
+        font-size: 4rem;
+        margin-top: -500px;
+    }
+
+    .about .about-text {
+        width: 100%;
+        font-size: 18px!important;
+    }
+
+    .about .about-content{
+        margin-top: -1100px;
+        grid-template-columns: repeat(2, 1fr);
+        
     }
 
     .about-content h2 {
@@ -788,17 +805,27 @@ span {
     }
 
     .about-content p {
+        margin: 2rem 0 3rem;
         text-align: center;
+        
+    }
+
+    .about-content .about-text {
+        width: 100%;
+        font-size: 20px;
+        margin-top: 10px;
     }
 
     .about-img img {
-        display: none;
+        margin-top: -450px;
+        margin-left: -280px;
     }
     .services {
-        margin-top: 0;
+        margin-top: -550px;
     }
 
     .services .heading {
+        
         margin-left: 250px;
     }
     .services .services-container {
@@ -809,9 +836,13 @@ span {
         margin-left: 400px;
     }
 
+    .marcas {
+        width: 100%;
+    }
+
     .marcas h2 {
         margin-top: 15px;
-        margin-left: 150px;
+        margin-left: 350px;
     
     }
 
@@ -824,7 +855,7 @@ span {
     }
 
     .contact .heading {
-        margin-right: -150px;
+        margin-right: -250px;
     }
 
     .contact-services {
@@ -832,16 +863,17 @@ span {
     }
 
     .contact-box {
-        margin-left: 10px;
+        margin-left: 40px;
     
     }
 
     .location {
-        margin-right: -150px;
+        margin-left: 250px;
     }
 
     .maps {
-        margin-right: -150px;
+        width: 100%;
+        margin-left: 130px;
     }
 
     .footer {
@@ -851,12 +883,87 @@ span {
 }
 
 @media (max-width: 617px) {
-    .about .about-content h3 {
-        margin-top: 3rem;
+
+    .abou .about-content {
+        width: 100%;
+    }
+
+    .about .about-content h2 {
+        margin-top: 270px;
+        margin-left: -200px;
+    }
+
+    .about .about-content .about-text {
+        margin-left: -120px;
+    }
+
+    .about .about-img {
+        display: none;
+    }
+
+    .services {
+        margin-top: -400px;
     }
 
     .services .services-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 100px;
+    }
+
+    .services-container .services-box {
+        width: 200px;
+        height: 200px;
+    }
+
+    .services-box p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+        margin-left: -100px;   
+    }
+
+    .services-box .telha {
+        margin-left: -170px;
+    }
+
+    .services-box .maderiteRosa {
+        margin-left: -170px;
+    }
+
+    .services-box .brasilit {
+        margin-left: -180px;
+    }
+
+    .services-box .madeira {
+        margin-left: -170px;
+    }
+
+    .services-box .deck {
+        width: 100%;
+        margin-left: -120px;
+    }
+
+    .services-box .ripa {
+        width: 100%;
+        margin-top: 120px;
+        margin-left: -140px;
+    }
+
+    .services-box .barrote {
+        font-size: 12px;
+        width: 100%;
+        margin-top: 120px;
+        margin-left: -140px;
+    }
+
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact .contact-services {
+        margin-left: 10px;
     }
 
     .footer {
@@ -874,15 +981,38 @@ span {
     }
 
     .home {
-        padding: 0 3% 30rem;
+        width: 100%;
+        margin-left: 120px;
+    }
+
+    .home .home-content h1 {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .home .solcial-media {
+        margin-left: 60px;
+    }
+
+    .home .home-content h3 {
+        width: 100%;
+        font-size: 20px;
+        margin-left: 20px;
     }
 
     .about {
-        margin-left: 250px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 450px;
+        margin-left: 230px;
+        margin-bottom: 150px;
     }
     .about-content .about-text {
-        width: 500px;
-        font-size: 2rem;
+        width: 100%;
+        font-size: 12px;
+        margin-left: -10px;
     }
 
 
@@ -891,83 +1021,146 @@ span {
     }
 
     .services {
-        margin-top: -650px;
+        margin-top: -580px;
     }
+
     .services .services-container {
-        display: none;
-    }
-/*
-    .services .services-container {
-        grid-template-columns: repeat(1, 1fr);
+
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .services-container .services-box {
-        flex-direction: column;
-        width: 480px;
-        height: 600px;
+        margin-left: 10px;
+        width: 120px;
+        height: 130px;
     }
 
-    .services-box img {
-        margin-left: 100px;
+    .services-container .services-box img{
+        width: 80px;
+        height: 80px;
+        margin-left: 20px;
+        margin-top: 10px;
     }
 
-    .services-box p {
-        font-size: 4rem;
-        margin-top: 50px;
-        margin-left: 15px;
+    .services-container .services-box p {
+        width: 100%;
+        margin-left: -80px;
+        margin-top: 85px;
+        font-size: 10px;
     }
 
     .services-box .maderiteRosa {
-        margin-left: 15px;
+        margin-left: -100px!important;
+        width: 100% !important;
+        font-size: 10px !important;
+    }
+
+    .services-box .maderiteAzul {
+       margin-left: -100px !important;
+       width: 100% !important;
+       font-size: 10px !important;
     }
 
     .services-box .brasilit {
-        margin-left: 15px;
+        margin-left: -100px!important;
     }
 
     .services-box .telha {
-        margin-left: 15px;
+        margin-left: -100px!important;
     }
 
     .services-box .madeira {
-        margin-left: 15px;
+        margin-left: -100px !important;
     }
 
-    .services-box {
-       margin-left: 25px;
-    }*/
+    .services-box .deck {
+        margin-left: -90px !important;
+    }
+
+    .services-box .ripa {
+        margin-left: -90px !important;
+    }
+
+    .services-box .barrote {
+        margin-left: -90px !important;
+        font-size: 8px !important;
+    }
+
+    .services-box .barrote {
+        margin-left: -90px !important;
+        font-size: 8px !important;
+    }
 
     #btnVermais {
         width: 200px;
-        margin-left: 260px;
+        margin-left: 200px;
         margin-bottom: 55px;
     }
 
     .marcas h2 {
-        margin-left: 350px;
+        margin-left: 250px;
     }
 
     .marcas .logo-marcas {
-        margin-left: 100px;
+        margin-left: 40px;
     
     } 
 
+    .contact {
+        width: 100%;
+        
+    }
+
+    .contact-services .contact-box {
+        margin-left: 50px;
+        width: 150px;
+        height: 200px;
+    }
+
+    .contact-services .contact-box img {
+        width: 150px;
+        height: 200px;
+    }
     .contact .heading {
-        margin-left: 250px;
+        margin-left: 30px;
     
     }
 
+    .contact .name {
+        font-size: 12px;
+        margin-left: 40px;
+    }
+
+    .contact .cargo {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+
+    .contact .email {
+        display: none;
+    }
+
+    .social-contact {
+        width: 100%;
+        margin-left: -15px;
+    }
+
+
     .location {
+        margin-top: 350px;
         margin-left: 250px;
     }
 
     .maps {
-        margin-left: 90px;
+        margin-left: 50px;
         width: 600px;
     }
 
     .footer {
-        margin-left: 250px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 50px;
     }
 
 
@@ -975,18 +1168,26 @@ span {
 
 
 @media (max-width: 365px) {
-    .about .about-content h3 {
-        margin-top: 3rem;
+    .about {
+        width: 100%;
+        margin-left: 280px;
+    }
+    
+    .about .about-content p {
+        font-size: 15px!important;
     }
 
-    .footer {
-        flex-direction: column-reverse;
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    .footer p {
-        text-align: center;
-        margin-top: 2rem;
+    .footer .footer-iconTop {
+        display: none;
     }
+
+    
 }
 
 @media (max-width: 322px) {
