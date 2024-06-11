@@ -1333,16 +1333,17 @@ span {
         margin-top: 450px;
         margin-left: 250px;
         margin-bottom: 180px;
-        
     }
 
     .about .heading {
+        width: 100%;
+        margin-left: -100px;
         margin-top: 120px;
     }
-    .about-content .about-text {
+    .about .about-content p {
         width: 100%!important;
-        font-size: 20px!important;
-        margin-left: -80px!important;
+        font-size: 15px!important;
+        margin-left: -120px!important;
         
     }
 
@@ -1358,7 +1359,7 @@ span {
 
     .services .heading {
         width: 500px;
-        margin-left: 90px;
+        margin-left: 240px;
     }
     .services .services-container {
         display: grid;
@@ -1430,6 +1431,7 @@ span {
     }
 
     .services-box .barrote {
+        margin-top: 250px!important;
         margin-left: -400px !important;
     }
 
@@ -1447,6 +1449,7 @@ span {
     }
 
     .services-box .forra {
+        margin-top: 250px!important;
         margin-left: -400px !important;
     }
 
@@ -1461,7 +1464,7 @@ span {
     }
     .marcas h2 {
         width: 520px;
-        margin-left: 100px;
+        margin-left: 10px;
     }
 
     .marcas .logo-marcas {
@@ -1476,11 +1479,18 @@ span {
 
     .contact {
         width: 100%;
-        
+        margin-left: 110px;
     }
 
+    .contact .heading {
+        margin-left: -200px!important;
+    }
+
+    .contact .contact-services {
+        width: 100%;
+    }
     .contact-services .contact-box {
-        margin-left: 20px;
+        margin-left: 10px;
         width: 150px;
         height: 200px;
     }
@@ -1491,6 +1501,7 @@ span {
     }
     .contact .heading {
         margin-left: 10px;
+
     
     }
 
@@ -1515,24 +1526,27 @@ span {
 
 
     .location {
-        margin-top: 350px;
-        margin-left: 250px;
+        width: 100%;
+    }
+
+    .location h2 {
+        width: 100%;
+        margin-left: -100px;
     }
 
     .maps {
-        margin-left: -10px;
+        width: 100%;
+    }
+
+    .maps iframe {
         width: 600px;
+        margin-left: -90px;
     }
 
     .footer {
-        display: flex;
-        justify-content: space-between;
-        margin-left: 50px;
-    }
-
-    .footer .footer-iconTop {
         display: none;
     }
+
 
 
 }
