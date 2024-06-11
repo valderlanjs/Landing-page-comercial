@@ -121,7 +121,7 @@ section {
 }
 
 .home img {
-    margin-right: -150px;
+    margin-right: -80px;
     width: 754px;
     height: 400px;
 
@@ -286,7 +286,7 @@ span {
     margin: 2rem 0 3rem;
 }
 
-/**/
+/*PRODUTOS*/
 .services {
     padding-bottom: 10rem;
 }
@@ -339,6 +339,31 @@ span {
     margin-top: 200px;
     margin-left: -200px;
     width: 100%;
+}
+
+.services-box .saibaMais {
+    position: absolute;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border-radius: 12px;
+    width: 80px;
+    height: 25px;
+    margin-top: 270px;
+    margin-left: 80px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.services-box .saibaMais a {
+    font-size: 10px;
+    
+}
+
+.services-box .saibaMais:hover {
+    background-color: var(--bg-color);
+    color: var(--main-color);
+    scale: 1.1;
+    border: 1px solid var(--main-color);
 }
 
 .services-box .telha {
@@ -999,6 +1024,36 @@ span {
 
 @media (max-width: 617px) {
 
+    header {
+        width: 100%!important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+    }
+
+    .home .home-content {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 750px;
+        margin-left: 5px;
+        margin-bottom: 0;
+    }
+
+    .about .about-content p {
+        width: 100%;
+        font-size: 12px!important;
+    }
+/*
     .about .about-content {
         width: 100%;
         margin-left: -20px;
@@ -1013,15 +1068,48 @@ span {
         margin-left: -250px;
         font-size: 20px!important;
     }
-
+*/
     .about .about-img {
         display: none;
     }
 
     .services {
-        margin-top: -400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: -900px;
     }
 
+    .services .heading  {
+        margin-left: 50px;
+    }
+
+    .services .services-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+        
+    }
+
+    .services-container .services-box {
+        width: 200px;
+        height: 300px;
+    }
+
+    .btnMais {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #btnVermais {
+        width: 150px;
+        margin-left: 20px;
+    }
+
+/*
     .services .heading {
         width: 100%;
         margin-left: 150px;
@@ -1077,25 +1165,133 @@ span {
         width: 100%;
         margin-top: 120px;
         margin-left: -140px;
+    }*/
+
+    .marcas {
+        width: 100%;
     }
 
-    #btnVermais {
-        width: 200px;
-        margin-left: 320px;
-        margin-bottom: 55px;
+    .marcas h2 {
+        width: 100%;
+        font-size: 30px;
+        margin-top: 55px;
+        margin-left: 50px;
     }
+
+    .marcas .logo-marcas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        margin-left: 80px;
+    }
+
 
 
     .contact {
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contact .heading {
+        width: 100%;
+        margin-left: -350px;
+        font-size: 30px;
     }
 
     .contact .contact-services {
-        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: -100px;
+        margin-bottom: 200px;
     }
 
-    .footer {
-        margin-left: 100px;
+    .contact-services .contact-box {
+        width: 150px;
+        height: 380px;
+        margin-left: 15px;
+    }
+
+    .contact-services .contact-box img{
+        width: 150px;
+        height: 180px;
+    }
+
+    .contact-services .contact-box .name {
+        width: 100%;
+        font-size: 12px;
+        margin-left: 35px;
+    }
+
+    .contact-services .contact-box .cargo {
+        width: 100%;
+        font-size: 12px; 
+    }
+    .contact-services .contact-box .email {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .social-contact {
+        width: 100%;
+        margin-left: -35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .social-contact a {
+        width: 130px;
+    }
+
+    .social-contact a i {
+        font-size: 12px;
+    }
+
+    .social-contact a i span {
+        font-size: 12px;
+    }
+
+    .location {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .location h2 {
+        width: 100%;
+    }
+
+    .maps {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .maps iframe {
+        width: 100%;
+        margin-left: -110px;
+    }
+
+    footer {
+        width: 400px!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-text {
+        width: 100%;
+        margin-left: -250px;
+    }
+
+    .footer .footer-iconTop {
+        margin-left: -150px!important;
     }
 }
 
@@ -1176,6 +1372,14 @@ span {
         margin-left: 10px;
         width: 500px;
         height: 450px;
+    }
+
+    .services-container .services-box .saibaMais {
+        width: 100px;
+        height: 35px;
+        margin-left: 200px;
+        font-weight: 400;
+        margin-top: 400px;
     }
 
     .services-container .services-box img{
@@ -1356,6 +1560,7 @@ span {
 
     .services {
         width: 100%;
+
     }
 
     .services .heading {
@@ -1525,6 +1730,31 @@ span {
 
 }
 
+.products-box .saibaMaisPro{
+    position: absolute;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border-radius: 12px;
+    width: 80px;
+    height: 25px;
+    margin-top: 220px;
+    margin-left: 50px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.products-box .saibaMaisPro a {
+    font-size: 10px;
+
+}
+
+.products-box .saibaMaisPro:hover {
+    background-color: var(--bg-color);
+    color: var(--main-color);
+    scale: 1.1;
+    border: 1px solid var(--main-color);
+}
+
 .products-box:hover img {
     transform: scale(1.1);
 }
@@ -1536,7 +1766,7 @@ span {
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: -120px;
     width: 100%;
 }
