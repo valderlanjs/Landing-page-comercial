@@ -1330,20 +1330,20 @@ span {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 450px;
+        margin-top: 500px;
         margin-left: 250px;
         margin-bottom: 180px;
     }
 
     .about .heading {
-        width: 100%;
-        margin-left: -100px;
+        width: 500px;
+        margin-left: -180px;
         margin-top: 120px;
     }
     .about .about-content p {
-        width: 100%!important;
-        font-size: 15px!important;
-        margin-left: -120px!important;
+        width: 500px!important;
+        font-size: 20px!important;
+        margin-left: -180px!important;
         
     }
 
