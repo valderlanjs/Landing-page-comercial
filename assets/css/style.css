@@ -960,12 +960,12 @@ span {
         margin-left: -200px;
     }
     .services {
+        margin-left: 15px;
         margin-top: -550px;
     }
 
     .services .heading {
-        
-        margin-left: 250px;
+        margin-left: 150px;
     }
     .services .services-container {
         grid-template-columns: repeat(3, 1fr);
@@ -995,11 +995,13 @@ span {
     }
 
     .contact .heading {
-        margin-right: -250px;
+        width: 100%;
+        margin-left: 80px;
     }
 
     .contact-services {
-        margin-left: 60px;
+        width: 100%;
+        margin-left: 10px!important;
     }
 
     .contact-box {
@@ -1012,13 +1014,12 @@ span {
     }
 
     .maps {
-        width: 100%;
-        margin-left: 130px;
+        width: 800px;
+        margin-left: 40px;
     }
 
     .footer {
-        background-color: var(--white-color);
-        margin-left: 250px;
+        display: none;
     }
 }
 
@@ -1097,6 +1098,15 @@ span {
         height: 300px;
     }
 
+    .services-box .saibaMais {
+        margin-left: 60px;
+    }
+
+    .services-box .telha {
+        margin-left: -170px;
+    }
+
+
     .btnMais {
         width: 100%;
         display: flex;
@@ -1106,8 +1116,10 @@ span {
 
     #btnVermais {
         width: 150px;
-        margin-left: 20px;
+        margin-left: 80px;
     }
+
+
 
 /*
     .services .heading {
@@ -1133,11 +1145,13 @@ span {
         margin-left: -100px;   
     }
 
-    .services-box .telha {
+    
+*/
+    .services-box .maderiteRosa {
         margin-left: -170px;
     }
 
-    .services-box .maderiteRosa {
+    .services-box .maderiteAzul {
         margin-left: -170px;
     }
 
@@ -1151,21 +1165,48 @@ span {
 
     .services-box .deck {
         width: 100%;
-        margin-left: -120px;
+        margin-left: -140px;
     }
 
     .services-box .ripa {
         width: 100%;
-        margin-top: 120px;
-        margin-left: -140px;
+        margin-top: 180px;
+        margin-left: -160px;
+    }
+
+    .services-box .caibo {
+        width: 100%;
+        margin-top: 180px;
+        margin-left: -170px;
     }
 
     .services-box .barrote {
         font-size: 12px;
         width: 100%;
-        margin-top: 120px;
-        margin-left: -140px;
-    }*/
+        margin-top: 180px;
+        margin-left: -160px;
+    }
+
+    .services-box .linha {
+        font-size: 14px;
+        width: 100%;
+        margin-top: 180px;
+        margin-left: -160px;
+    }
+
+    .services-box .forro {
+        font-size: 14px;
+        width: 100%;
+        margin-top: 180px;
+        margin-left: -180px;
+    }
+
+    .services-box .forra {
+        font-size: 12px;
+        width: 100%;
+        margin-top: 180px;
+        margin-left: -160px;
+    }
 
     .marcas {
         width: 100%;
@@ -1197,7 +1238,7 @@ span {
 
     .contact .heading {
         width: 100%;
-        margin-left: -350px;
+        margin-left: 150px;
         font-size: 30px;
     }
 
@@ -1264,6 +1305,7 @@ span {
 
     .location h2 {
         width: 100%;
+        margin-left: 40px;
     }
 
     .maps {
@@ -1275,7 +1317,7 @@ span {
 
     .maps iframe {
         width: 100%;
-        margin-left: -110px;
+        margin-left: 40px;
     }
 
     footer {
@@ -1897,6 +1939,13 @@ span {
         margin-left: -150px!important;
     }
 
+    .products-box .saibaMaisPro {
+        margin-top: 220px!important;
+        font-weight: 400;
+        width: 80px!important;
+        margin-left: 50px!important;
+    }
+
     .products-box .brasilit {
         margin-left: -180px!important;
     }
@@ -1922,6 +1971,7 @@ span {
     }
 
     .products-box .barrote {
+        margin-top: 150px !important;
         margin-left: -180px !important;
         font-size: 12px !important;
     }
