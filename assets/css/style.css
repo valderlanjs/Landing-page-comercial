@@ -842,6 +842,11 @@ span {
 
     #menu-icon {
         display: block;
+        transition: transform 0.3s ease;
+    }    
+
+    #menu-icon.bx-x {
+        transform: rotate(45deg);
     }
 
     .navbar {
@@ -858,6 +863,7 @@ span {
 
     .navbar.active {
         display: block;
+        
     }
 
     .navbar a {
@@ -1436,19 +1442,19 @@ span {
         width: 100%;
         margin-left: -80px;
         margin-top: 300px;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .services-box .maderiteRosa {
         margin-left: -450px!important;
         width: 100% !important;
-        font-size: 30px !important;
+       
     }
 
     .services-box .maderiteAzul {
        margin-left: -450px !important;
        width: 100% !important;
-       font-size: 30px !important;
+       
     }
 
     .services-box .brasilit {
@@ -1583,8 +1589,8 @@ span {
     }
 
     .maps iframe {
-        width: 600px;
-        margin-left: 50px;
+        width: 800px;
+        margin-left: -20px;
     }
 
     .footer {
