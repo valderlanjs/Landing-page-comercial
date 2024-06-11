@@ -5,7 +5,7 @@ function sendMsg(phoneNumber) {
     const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
     window.open(url, '_blank');
 }
-
+//AW-16605565792 --ID DO GOOGLE PARA HOSPEDAGEM
 
 
 /**=========== ICONE DE MENU DO NAVBAR  ========**/
