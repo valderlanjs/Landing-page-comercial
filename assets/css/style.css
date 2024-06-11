@@ -1473,6 +1473,7 @@ span {
     }
 
     .services-box .barrote {
+        font-size: 20px!important;
         margin-top: 250px!important;
         margin-left: -400px !important;
     }
@@ -1525,11 +1526,12 @@ span {
     }
 
     .contact .heading {
-        margin-left: -200px!important;
+        margin-left: 40px!important;
     }
 
     .contact .contact-services {
         width: 100%;
+        margin-left: -50px!important;
     }
     .contact-services .contact-box {
         margin-left: 10px;
@@ -1582,7 +1584,7 @@ span {
 
     .maps iframe {
         width: 600px;
-        margin-left: -90px;
+        margin-left: 50px;
     }
 
     .footer {
