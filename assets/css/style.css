@@ -15,6 +15,7 @@
 }
 
 /*VARIÁVEIS DE CORES*/
+/*CAD3D5*/
 :root {
     --logo-text: #A8C712;
     --logo-text-black: #363435;
@@ -22,7 +23,7 @@
     --bg-color: #fdfdfd;
     --text-color: #135A42;
     --main-color: #363435;
-    --white-color: #F8F9FA;
+    --white-color: #CAD3D5;
     --shadow-color: rgba(0, 0, 0, 0.2);
 }
 
