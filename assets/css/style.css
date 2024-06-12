@@ -43,7 +43,7 @@ body {
     right: 150px;
     width: 100%;
     padding: 2rem ;
-    background: var(--bg-color);
+    background: #fff;
     display: flex;
     align-items: center;
     box-shadow: 0 .1rem 1rem var(--shadow-color);
@@ -53,7 +53,7 @@ body {
 
 /*ALTERAÇÃO DO BACKGROUNDO DO HEADER */
 .header.sticky {
-    background: transparent;
+    background: #fff;
     box-shadow: 0 .1rem 1rem var(--shadow-color);
 }
 
