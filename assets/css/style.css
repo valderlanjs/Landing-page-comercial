@@ -889,330 +889,54 @@ span {
     }
 
     .home {
+        width: 100%;
         display: flex;
-        width: 100%;
+        align-items: center;
         justify-content: center;
-        text-align: center;
-        margin-left: 150px;
-
     }
 
-    .home-content {
+    .home .home-content {
         width: 100%;
-        margin-top: 7rem;
+        margin-left: 0px;
     }
 
-    .home-content h3 {
-        margin-top: 0;
-        font-size: 2.6rem;
-    }
-
-    .home-content h1 {
+    .home .home-content h1  {
         width: 100%;
-        font-size: 5rem;
     }
 
-    .home-content .social-media a {
-        margin: 2.5rem 0.75rem 3rem;
+    .home .home-content h3  {
+        margin-left: 0;
     }
 
     .home img {
         display: none;
     }
-
-    .about {
-        width: 100%;
-        margin-left: 255px;
-        margin-top: 42rem;
-        display: grid;
-        margin-bottom: 0px;
-    }
-
-    .about .heading {
-        font-size: 4rem;
-        margin-top: -500px;
-    }
-
-    .about .about-text {
-        margin-top: 15px;
-        width: 100%;
-        font-size: 18px!important;
-    }
-
-    .about .about-content{
-        margin-top: -1100px;
-        grid-template-columns: repeat(2, 1fr);
-        
-    }
-
-    .about-content h2 {
-        margin-bottom: 1rem;
-        text-align: center;
-    }
-
-    .about-content p {
-        margin: 2rem 0 3rem;
-        text-align: center;
-        
-    }
-
-    .about-content .about-text {
-        width: 600px;
-        font-size: 15px!important;
-        margin-top: 10px;
-    }
-
-    .about-img img {
-        margin-top: -380px;
-        margin-left: -200px;
-    }
     .services {
-        margin-left: 15px;
-        margin-top: -550px;
-    }
-
-    .services .heading {
-        margin-left: 150px;
-    }
-    .services .services-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    #btnVermais {
-        margin-left: 400px;
-    }
-
-    .marcas {
+        margin-left: 0px;
         width: 100%;
-    }
-
-    .marcas h2 {
-        width: 100%;
-        margin-top: 15px;
-        margin-left: 110px;
-    
-    }
-
-    .logo-marcas {
-        display: grid;
-        grid-template-columns: repeat(4, 2fr);
-        gap: 2rem;
-        width: 100%;
-        margin-left: 150px;
-    }
-
-    .contact .heading {
-        width: 100%;
-        margin-left: 80px;
-    }
-
-    .contact-services {
-        width: 100%;
-        margin-left: 10px!important;
-    }
-
-    .contact-box {
-        margin-left: 40px;
-    
-    }
-
-    .location {
-        margin-left: 250px;
-    }
-
-    .maps {
-        width: 800px;
-        margin-left: 40px;
-    }
-
-    .footer {
-        display: none;
-    }
-}
-
-@media (max-width: 617px) {
-
-    header {
-        width: 100%!important;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .home {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 50px;
-    }
-
-    .home .home-content {
-        width: 100%;
-    }
-    .about {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 750px;
-        margin-left: 5px;
-        margin-bottom: 0;
-    }
-
-    .about .about-content p {
-        width: 100%;
-        font-size: 12px!important;
-    }
-/*
-    .about .about-content {
-        width: 100%;
-        margin-left: -20px;
-    }
-
-    .about .about-content h2 {
-        margin-top: 270px;
-        margin-left: -200px;
-    }
-
-    .about .about-content .about-text {
-        margin-left: -250px;
-        font-size: 20px!important;
-    }
-*/
-    .about .about-img {
-        display: none;
-    }
-
-    .services {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: -900px;
     }
 
-    .services .heading  {
-        margin-left: 50px;
+    .services .heading {
+        margin-left: 400px;
     }
 
     .services .services-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2.5rem;
-        
+        width: 100%; 
+        margin-left: 350px;
     }
 
-    .services-container .services-box {
+    .services .services-box {   
         width: 200px;
-        height: 300px;
     }
-
-    .services-box .saibaMais {
-        margin-left: 60px;
-    }
-
-    .services-box .telha {
-        margin-left: -170px;
-    }
-
 
     .btnMais {
+        margin-left: -220px;
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #btnVermais {
-        width: 150px;
-        margin-left: 80px;
-    }
-
-
-
-/*
-    .services .heading {
-        width: 100%;
-        margin-left: 150px;
-    }
-
-    .services .services-container {
-        grid-template-columns: repeat(3, 1fr);
-        margin-left: 100px;
-    }
-
-    .services-container .services-box {
-        width: 200px;
-        height: 200px;
-    }
-
-    .services-box p {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 150px;
-        margin-left: -100px;   
-    }
-
-    
-*/
-    .services-box .maderiteRosa {
-        margin-left: -170px;
-    }
-
-    .services-box .maderiteAzul {
-        margin-left: -170px;
-    }
-
-    .services-box .brasilit {
-        margin-left: -180px;
-    }
-
-    .services-box .madeira {
-        margin-left: -170px;
-    }
-
-    .services-box .deck {
-        width: 100%;
-        margin-left: -140px;
-    }
-
-    .services-box .ripa {
-        width: 100%;
-        margin-top: 180px;
-        margin-left: -160px;
-    }
-
-    .services-box .caibo {
-        width: 100%;
-        margin-top: 180px;
-        margin-left: -170px;
-    }
-
-    .services-box .barrote {
-        font-size: 12px;
-        width: 100%;
-        margin-top: 180px;
-        margin-left: -160px;
-    }
-
-    .services-box .linha {
-        font-size: 14px;
-        width: 100%;
-        margin-top: 180px;
-        margin-left: -160px;
-    }
-
-    .services-box .forro {
-        font-size: 14px;
-        width: 100%;
-        margin-top: 180px;
-        margin-left: -180px;
-    }
-
-    .services-box .forra {
-        font-size: 12px;
-        width: 100%;
-        margin-top: 180px;
-        margin-left: -160px;
     }
 
     .marcas {
@@ -1221,19 +945,16 @@ span {
 
     .marcas h2 {
         width: 100%;
-        font-size: 30px;
-        margin-top: 55px;
-        margin-left: 50px;
+        margin-left: 150px;
     }
 
     .marcas .logo-marcas {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         width: 100%;
-        margin-left: 80px;
+        gap: 80px;
+        margin-left: 150px;
     }
-
-
 
     .contact {
         width: 100%;
@@ -1245,62 +966,8 @@ span {
 
     .contact .heading {
         width: 100%;
-        margin-left: 150px;
-        font-size: 30px;
-    }
-
-    .contact .contact-services {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        margin-left: -100px;
-        margin-bottom: 200px;
-    }
-
-    .contact-services .contact-box {
-        width: 150px;
-        height: 380px;
-        margin-left: 15px;
-    }
-
-    .contact-services .contact-box img{
-        width: 150px;
-        height: 180px;
-    }
-
-    .contact-services .contact-box .name {
-        width: 100%;
-        font-size: 12px;
-        margin-left: 35px;
-    }
-
-    .contact-services .contact-box .cargo {
-        width: 100%;
-        font-size: 12px; 
-    }
-    .contact-services .contact-box .email {
-        width: 100%;
-        font-size: 10px;
-    }
-
-    .social-contact {
-        width: 100%;
-        margin-left: -35px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-    }
-
-    .social-contact a {
-        width: 130px;
-    }
-
-    .social-contact a i {
-        font-size: 12px;
-    }
-
-    .social-contact a i span {
-        font-size: 12px;
+        margin-left: 200px;
+    
     }
 
     .location {
@@ -1311,36 +978,48 @@ span {
     }
 
     .location h2 {
-        width: 100%;
-        margin-left: 40px;
+        margin-right: 250px;
     }
 
     .maps {
-        width: 100%;
+        background-color: red;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
+        margin-left: 180px;
     }
 
     .maps iframe {
         width: 100%;
-        margin-left: 40px;
     }
 
-    footer {
-        width: 400px!important;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+
+    .footer-iconTop {
+        display: none;
+    }
+}
+ 
+@media (max-width: 586px) {
+    .about .about-img {
+        display: none;
     }
 
-    .footer-text {
-        width: 100%;
-        margin-left: -250px;
+    .services .heading {
+        margin-left: 450px;
     }
 
-    .footer .footer-iconTop {
-        margin-left: -150px!important;
+    .marcas h2 {
+        margin-left: 200px;
+    }
+
+    .logo-marcas {
+        margin-left: 200px!important;
+    }
+
+    .contact {
+        margin-left: 150px;
+    
     }
 }
 
