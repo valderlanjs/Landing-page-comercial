@@ -1350,8 +1350,34 @@ span {
         font-size: 5rem!important;
     }
 
-    .services {
+    body {
+        width: 100%!important;
+    }
+
+    .header {
+        justify-content: center;
+    }
+
+    .home {
         
+        justify-content: center!important;
+    }
+
+    .home .home-content {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .about {
+        justify-content: center;
+    }
+
+    .services {
+        display: none;
+    }
+
+    .contact {
+        display: none;
     }
 }
 /*
