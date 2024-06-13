@@ -1350,6 +1350,11 @@ span {
         font-size: 5rem!important;
     }
 
+    .services {
+        
+    }
+}
+/*
     .home {
         width: 100%;
         margin-left: 180px;
@@ -1601,8 +1606,8 @@ span {
 
 
 }
-
-
+*/
+/*
 @media (max-width: 365px) {
 
     .home {
@@ -1732,8 +1737,8 @@ span {
     }
 
     
-}
-
+}*/
+/*
 @media (max-width: 322px) {
 
     .home {
@@ -1762,10 +1767,10 @@ span {
     }
 }
 
-
-/* PAGINA TODOS OS PRODUTOS*/
+*/
 
 /*SEÇÃO PRODUTOS*/
+
 .products-services .products-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
