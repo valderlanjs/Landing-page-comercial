@@ -1345,14 +1345,11 @@ span {
 }
 
 @media (max-width: 450px) {
-    #menu-icon {
+    /*#menu-icon {
         margin-right: 0px !important;
         font-size: 5rem!important;
-    }
+    }*/
 
-    body {
-        width: 100%!important;
-    }
 
     .header {
         justify-content: center;
